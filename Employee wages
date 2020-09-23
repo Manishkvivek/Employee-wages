@@ -1,0 +1,25 @@
+
+public class EmployeWageBuilder{
+	public static final int EMPLY_WORKRATE_PER_HOUR = 20;
+	public static final int IS_FULL_TIME = 08;
+	public static final int IS_PART_TIME = 03;
+
+	public static void main(String[] argc) {
+		int emplyHrs = 0;
+		int emplyWage = 0;
+		int emplyCheck = (int) Math.floor(Math.random() * 10) % 2;
+		switch (empCheck) {
+			case IS_FULL_TIME:
+				empHrs = 8;
+				break;
+			case IS_PART_TIME:
+				empHrs = 3;
+				break;
+			default:
+				empHrs = 0;
+		}
+
+		empWage = empHrs * EMP_RATE_PER_HOUR;
+		System.out.println("Emp Wage: " + empWage);
+	}
+}
