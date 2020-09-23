@@ -20,6 +20,6 @@ public class EmployeWageBuilder{
 		}
 
 		empWage = emplyHrs * EMPLY_RATE_PER_HOUR;
-		System.out.println("Emp Wage: " + empWage);
+		System.out.println("Emply Wage: " + emplyWage);
 	}
 }
