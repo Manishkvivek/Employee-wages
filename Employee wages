@@ -8,7 +8,7 @@ public class EmployeWageBuilder{
 		int emplyHrs = 0;
 		int emplyWage = 0;
 		int emplyCheck = (int) Math.floor(Math.random() * 10) % 2;
-		switch (empCheck) {
+		switch (emplyCheck) {
 			case IS_FULL_TIME:
 				empHrs = 8;
 				break;
@@ -16,10 +16,10 @@ public class EmployeWageBuilder{
 				empHrs = 3;
 				break;
 			default:
-				empHrs = 0;
+				emplyHrs = 0;
 		}
 
-		empWage = empHrs * EMP_RATE_PER_HOUR;
+		empWage = emplyHrs * EMPLY_RATE_PER_HOUR;
 		System.out.println("Emp Wage: " + empWage);
 	}
 }
